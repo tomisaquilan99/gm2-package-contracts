@@ -1,0 +1,39 @@
+{
+  "name": "gm2-package-contracts",
+  "version": "1.0.0",
+  "description": "GM2 Common Smart Contracts",
+  "main": "index.js",
+  "files": [
+    "**/*.sol",
+    "/build/contracts/*.json",
+    "!/mocks/**/*"
+  ],
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts",
+    "security"
+  ],
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.1",
+    "@openzeppelin/contracts": "^4.7.1",
+    "chai": "^4.3.6",
+    "hardhat": "^2.10.1",
+    "install": "^0.13.0",
+    "npm": "^8.14.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomisaquilan99/gm2-package-contracts.git"
+  },
+  "author": "Tomas Saquilan <tomassaquilan@hotmail.com> and Luis Patty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomisaquilan99/gm2-package-contracts/issues"
+  },
+  "homepage": "https://github.com/tomisaquilan99/gm2-package-contracts#readme"
+}
