@@ -1,8 +1,7 @@
 {
   "name": "gm2packagecontracts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "GM2 Common Smart Contracts",
-  "main": "index.js",
   "files": [
     "**/*.sol",
     "/build/contracts/*.json",
